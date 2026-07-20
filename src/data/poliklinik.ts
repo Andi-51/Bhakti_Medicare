@@ -885,6 +885,76 @@ export const poliklinik: Poliklinik[] = [
   },
 
   {
+    slug: "fisioterapi",
+
+    nama: "Poliklinik Fisioterapi",
+
+    icon: Wheelchair,
+
+    banner: bannerRehabMedik,
+
+    deskripsi:
+    "Poli Rehabilitasi Medik memberikan pelayanan medis yang bertujuan memulihkan kemampuan fisik, meningkatkan kemandirian, serta membantu pasien kembali menjalani aktivitas sehari-hari secara optimal. Program rehabilitasi disusun secara menyeluruh sesuai dengan kondisi dan kebutuhan masing-masing pasien melalui pendekatan yang terintegrasi.",
+
+    layanan: [
+      "Konsultasi Dokter Spesialis Rehabilitasi Medik",
+      "Evaluasi Gangguan Fungsi Gerak",
+      "Program Rehabilitasi Fisik",
+      "Penanganan Cedera Otot dan Sendi",
+      "Rehabilitasi Pasca Operasi",
+      "Rehabilitasi Pasca Stroke",
+      "Konsultasi dan Edukasi Program Latihan",
+    ],
+
+    jadwal: [
+      {
+        hari: "Senin",
+        jam: "14.00 - 21.30",
+      },
+      {
+        hari: "Selasa",
+        jam: "07.00 - 14.00",
+      },
+      {
+        hari: "Rabu",
+        jam: "07.00 - 14.00",
+      },
+      {
+        hari: "Kamis",
+        jam: "14.30 - 21.30",
+      },
+      {
+        hari: "Jum'at",
+        jam: "07.00 - 14.00",
+      },
+      {
+        hari: "Sabtu",
+        jam: "14.30 - 21.30",
+      },
+    ],
+
+    kondisi: [
+      "Stroke dan Gangguan Gerak Pasca Stroke",
+      "Cedera otot, Sendi, dan Tulang",
+      "Nyeri Punggung dan Leher",
+      "Nyeri Bahu, Lutut, dan Pinggul",
+      "Gangguan Syaraf yang Memengaruhi Gerakan",
+      "Cedera Akibat Kecelakaan",
+      "Pemulihan Pasca Operasi",
+      "Gangguan Keseimbangan dan Koordinasi",
+      "Kelemahan Otot",
+      "Gangguan Aktivitas Fungsional Sehari-hari",
+    ],
+
+    doctors: [
+      {
+        nama: "dr. Tonny Roboth. Sp.THT-KL",
+        foto: dokter_tonny,
+      },
+    ],
+  },
+
+  {
     slug: "jiwa",
 
     nama: "Poliklinik Kejiwaan",
